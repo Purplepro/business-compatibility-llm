@@ -76,7 +76,7 @@ def evaluate_business_pairs(business_a: dict, business_b: dict) -> str:
         "**Verdict:** Compatible\n\n**Reasoning:** Both businesses share matching certifications, have
         complementary supply and demand profiles, and operate within the same region."
     """
-    with open("/Users/sevios/ai_projects/business_comp_ai_agent/prompts/compatibility_prompt.text", "r") as f:
+    with open("prompts/compatibility_prompt.text", "r") as f:
         prompt_template_str = f.read()
 
     prompt = PromptTemplate.from_template(prompt_template_str)
