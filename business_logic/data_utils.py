@@ -1,6 +1,6 @@
 import json
 
-def load_business_profiles(filepath: str = "business_comp_ai_agent/data/business_profiles.json") -> list[dict]:
+def load_business_profiles(filepath: str = "data/business_profiles.json") -> list[dict]:
     """
     Loads business profile data from a JSON file and returns it as a list of dictionaries.
 
