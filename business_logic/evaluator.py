@@ -33,7 +33,7 @@ def evaluate_business_pairs(business_a: dict, business_b: dict) -> str:
     business_a: A dict of business attributes(e.g., location, type, certifications).
     business_b: A dict of business attributes(e.g., location, type, certifications).
     """
-    with open("/Users/sevios/ai_projects/business_comp_ai_agent/prompts/compatibility_prompt.text", "r") as f:
+    with open("prompts/compatibility_prompt.text", "r") as f:
         prompt_template_str = f.read()
 
     prompt = PromptTemplate.from_template(prompt_template_str)
