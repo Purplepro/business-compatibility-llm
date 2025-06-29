@@ -1,6 +1,6 @@
 import json
 
-def load_business_profiles(filepath: str = "/Users/sevios/ai_projects/business_comp_ai_agent/data/business_profiles.json") -> list[dict]:
+def load_business_profiles(filepath: str = "business-compatibility-llm/data/business_profiles.json") -> list[dict]:
     """
     Return a list of business profile dictionaries.
     Each dictionary represents a single business.
