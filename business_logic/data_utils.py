@@ -1,6 +1,9 @@
 import json
+import os
 
-def load_business_profiles(filepath: str = "data/business_profiles.json") -> list[dict]:
+business_profils_filepath = os.path.join(os.path.dirname(__file__), "../data/business_profiles.json")
+
+def load_business_profiles(filepath: str = business_profils_filepath) -> list[dict]:
     """
     Return a list of business profile dictionaries.
     Each dictionary represents a single business.
