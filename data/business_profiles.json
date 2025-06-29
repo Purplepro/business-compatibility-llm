@@ -1,0 +1,107 @@
+{
+  "businesses": [
+    {
+      "id": "biz_001",
+      "name": "Ghana Seafood Co.",
+      "type": "Supplier",
+      "location": "Coastal Ghana",
+      "capacity": "15 tons/month",
+      "transport": "5 refrigerated trucks",
+      "certifications": ["Certified Organic", "HACCP"]
+    },
+    {
+      "id": "biz_002",
+      "name": "Accra Eats",
+      "type": "Retailer",
+      "location": "Accra, Ghana",
+      "demand": "3 tons/week",
+      "certifications": ["Certified Organic", "HACCP"]
+    },
+    {
+      "id": "biz_003",
+      "name": "Sierra Dry Goods",
+      "type": "Processor",
+      "location": "Freetown, Sierra Leone",
+      "capacity": "10 tons/month",
+      "transport": "Standard freight",
+      "certifications": ["ISO 22000"]
+    },
+    {
+      "id": "biz_004",
+      "name": "Lagos Green Market",
+      "type": "Retailer",
+      "location": "Lagos, Nigeria",
+      "demand": "5 tons/week",
+      "certifications": ["HACCP"]
+    },
+    {
+      "id": "biz_005",
+      "name": "Blue Bay Exports",
+      "type": "Supplier",
+      "location": "Tema Port, Ghana",
+      "capacity": "20 tons/month",
+      "transport": "Cold storage + reefer containers",
+      "certifications": ["Marine Stewardship Council", "ISO 9001"]
+    },
+    {
+      "id": "biz_006",
+      "name": "Cape Coast Kitchen",
+      "type": "Retailer",
+      "location": "Cape Coast, Ghana",
+      "demand": "2 tons/week",
+      "certifications": ["Local FDA"]
+    },
+    {
+      "id": "biz_007",
+      "name": "Trinidad Agro Farms",
+      "type": "Farmer",
+      "location": "San Fernando, Trinidad & Tobago",
+      "production": "Root vegetables and herbs",
+      "capacity": "30 tons/month",
+      "certifications": ["GAP", "Local Organic"]
+    },
+    {
+      "id": "biz_008",
+      "name": "Montego Freight Ltd.",
+      "type": "Carrier",
+      "location": "Montego Bay, Jamaica",
+      "services": ["Port-to-port shipping", "Cold chain logistics"],
+      "fleet": "3 reefer trucks, 2 shipping containers",
+      "certifications": ["ISO 9001", "IATA"]
+    },
+    {
+      "id": "biz_009",
+      "name": "Port of Bridgetown Handlers",
+      "type": "Logistics Provider",
+      "location": "Bridgetown, Barbados",
+      "services": ["Customs brokerage", "Warehousing", "Container offloading"],
+      "certifications": ["WTO Trade Facilitation", "ISO 28000"]
+    },
+    {
+      "id": "biz_010",
+      "name": "Dominica Organics Cooperative",
+      "type": "Processor",
+      "location": "Roseau, Dominica",
+      "capacity": "8 tons/month",
+      "focus": "Dehydrated fruit and plant-based products",
+      "certifications": ["USDA Organic", "Fair Trade"]
+    },
+    {
+      "id": "biz_011",
+      "name": "Kingston Food Solutions",
+      "type": "Retailer",
+      "location": "Kingston, Jamaica",
+      "demand": "7 tons/week",
+      "certifications": ["HACCP", "ISO 22000"]
+    },
+    {
+      "id": "biz_012",
+      "name": "Takoradi Port Express",
+      "type": "Carrier",
+      "location": "Takoradi, Ghana",
+      "services": ["Inland freight", "Export documentation"],
+      "fleet": "7 transport trucks",
+      "certifications": ["ISO 9001"]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+You are a business compatibility analyst evaluating whether two businesses should form a commercial partnership.
+
+Use the following format for every analysis:
+
+---
+EXAMPLE
+BUSINESS A:
+A wholesale coffee supplier based in Kenya with 10-ton monthly roasting capacity. Certified Organic and Rainforest Alliance certified.
+
+BUSINESS B: 
+A European café chain sourcing 5 tons/month of single-origin coffee, seeking certified organic partners.
+
+COMPATABILITY: 
+
+With 15 tons capacity, business A can meet business B's demand. Both businesses also share the same certifications and values with both having (certified organic, hccp).
+
+Verdict: Compatible
+
+Reasoning:
+- Product/service fit: Business A supplies frozen tilapia, matching the exact seafood type required by Business B.
+- Capacity/logistics: Business A’s monthly capacity of 15 tons covers Business B’s weekly demand of 3 tons (≈12 tons/month), with refrigerated transport ensuring freshness.
+- Region/logistical feasibility: Both businesses operate in Ghana — Accra is within the distribution radius of the coastal supplier.
+- Shared certifications/values: Both hold food safety certifications (Certified Organic, HACCP, Fully Certified), demonstrating aligned standards and values.
+
+COMPATIBILITY EXAMPLE:
+
+With 15 tons capacity, Business A can meet Business B’s 12-ton/month demand. Their location within Ghana makes regular delivery practical and efficient. Both businesses share relevant certifications such as Certified Organic and they prioritize food safety.
+---
+
+Now analyize the following pair:
+
+BUSINESS A:
+{business_a}
+
+BUSINESS B:
+{business_b}
+
+Provide:
+- A verdict: "Compatable" or "Not Compatible"
+- For each evaluation area (fit, delivery, logistics, certifications), provide 1-2 sentences for reasoning.
+- Quote specific values when possible (e.g., capacity, certifications, demand, locations).
