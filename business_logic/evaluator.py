@@ -5,26 +5,6 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain_community.llms import Ollama
 
-def build_profile(business: dict) -> str:
-    lines = [
-        f"{business['name']} is a {business['type']} located in {business['location']}.",
-    ]
-
-    if "capacity" in business:
-        lines.append(f"Monthly capacity: {business['capacity']}.")
-    if "transport" in business:
-        lines.append(f"Transport assets: {business['transport']}.")
-    if "demand" in business:
-        lines.append(f"Demand requirement: {business['demand']}.")
-    if "certifications" in business:
-        lines.append(f"Certifications {','.join(business['certifications'])}.")
-    if "values" in business:
-        lines.append(f"Company values: {', '.join(business['values'])}.")
-    if "notes" in business:
-        lines.append(business["notes"])
-
-    return " ".join(lines)
-
 
 
 def evaluate_business_pairs(business_a: dict, business_b: dict) -> str:
